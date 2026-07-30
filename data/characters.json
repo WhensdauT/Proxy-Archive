@@ -1,0 +1,14 @@
+[
+  {
+    "id":"harumasa",
+    "name":"Harumasa",
+    "lastBanner":"2025-09-22",
+    "image":"assets/agents/harumasa.webp"
+  },
+  {
+    "id":"miyabi",
+    "name":"Miyabi",
+    "lastBanner":"2026-04-12",
+    "image":"assets/agents/miyabi.webp"
+  }
+]
