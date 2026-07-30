@@ -121,3 +121,46 @@ border:1px solid #24406e;
 padding:15px;
 margin-bottom:10px;
 }
+.agent-page{
+    width:min(1200px,90%);
+    margin:50px auto;
+}
+
+.agent-card{
+    display:flex;
+    gap:40px;
+    background:#131d32;
+    border:1px solid #24406e;
+    padding:30px;
+}
+
+.agent-image{
+    width:350px;
+    border-radius:12px;
+}
+
+.agent-info{
+    flex:1;
+}
+
+.agent-info h1{
+    color:#4da3ff;
+    margin-bottom:20px;
+}
+
+.agent-info p{
+    margin-bottom:12px;
+}
+
+.days{
+    font-size:2rem;
+    color:#4da3ff;
+    margin-top:20px;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:25px;
+    color:white;
+    text-decoration:none;
+}
