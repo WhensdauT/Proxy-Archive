@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Archive</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <h1>PROXY ARCHIVE</h1>
+
+    <p>
+        Отслеживай сколько дней любимый агент ждёт реран
+    </p>
+
+</header>
+
+<main>
+
+<section class="top-waiting">
+
+    <h2>TOP WAITING AGENTS</h2>
+
+    <div id="topWaiting"></div>
+
+</section>
+
+<section class="banner-section">
+
+    <h2>УЖЕ В ЭФИРЕ</h2>
+
+    <div class="banner-grid">
+
+        <div class="banner-card">
+            <img src="assets/agents/miyabi.webp">
+            <span>УЖЕ В ЭФИРЕ</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="controls">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Поиск агента"
+        >
+
+        <select id="sort">
+
+            <option value="desc">
+                Больше дней → Меньше
+            </option>
+
+            <option value="asc">
+                Меньше дней → Больше
+            </option>
+
+        </select>
+
+    </div>
+
+    <div id="agents"></div>
+
+</section>
+
+</main>
+
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
